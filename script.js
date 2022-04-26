@@ -14,7 +14,6 @@ const character = {
     age: 10
 };
 
-//Cambiar el valor de age a 25:
 character.age = 25;
 console.log(character.age);
 
@@ -57,10 +56,39 @@ globalBasePrice = 25000;
 console.log("Ahora es:", globalBasePrice);
 
 car1.finalPrice = globalBasePrice+car1.basePrice;
-console.log("El precio del ",car1.name, "es:", car1.finalPrice);
+console.log("El precio del",car1.name, "es:", car1.finalPrice);
 
 car2.finalPrice = globalBasePrice+car2.basePrice;
-console.log("El precio del ",car2.name, "es:", car2.finalPrice);
+console.log("El precio del",car2.name, "es:", car2.finalPrice);
+
+
+// -----------Iteration#3
+// -----------Ejercicio 1.1
+const resultado = 10*15;
+window.alert("El resultado de 10x5 es igual a: " + (10*5));
+
+// -----------Ejercicio 1.2
+window.alert("El resultado de 10/2 es igual a: " + (10/2));
+
+// -----------Ejercicio 1.3
+let resultado2 = 15/9;
+let dosdecimales = resultado2.toFixed(2);
+
+window.alert("El resultado de 15/9 es igual a: " + dosdecimales);
+
+// -----------Ejercicio 1.4
+let y2 = 10;
+let z2 = 5;
+x2 = y2+z2;
+console.log("El resultado del ejercicio 1.4 es:",x2);
+
+// -----------Ejercicio 1.5
+let y3 = 10;
+let z3 = 5;
+x3 = y3*z3;
+console.log("El resultado del ejercicio 1.5 es:",x3);
+
+
 
 
 
