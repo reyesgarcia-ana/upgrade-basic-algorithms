@@ -1,5 +1,7 @@
 // alert ("Java Script funcionando perfectamente")
 
+// -----------Iteration#1
+
 const myFavoriteHero = "Hulk";
 const x = 50;
 const h = 5;
@@ -24,12 +26,12 @@ const age = "24";
 console.log(("Soy"), firstName, lastName+(", Tengo"), age,("años y me gustan los lobos"));
 
 // -----------Ejercicio 1.3
-const toy1 ={
+const toy1 = {
     name: "Buss LightYear",
     price: 19,
 }
 
-const toy2 ={
+const toy2 = {
     name: "Rayo Mcqueen",
     price: 29,
 }
@@ -119,3 +121,24 @@ console.log("Se ha eliminado el elemento " + rickAndMortyCharacters.pop());
 
 console.log("El primer y último elemento del array son, respectivamente: " + rickAndMortyCharacters[0] + " y " + rickAndMortyCharacters[(rickAndMortyCharacters.length-1)]);
 
+// -----------Iteration#6
+console.log("Crea un bucle for que vaya desde 0 a 9 y muestralo por consola:");
+
+for (let a=0; a<10; a++) {
+    console.log(a);
+}
+
+console.log("Muestra solo los múltiplos de 2");
+for (let i=0; i<10; i++) {
+    if ((i%2)===0){console.log(i);}
+    else console.log("---");
+    
+}
+
+console.log("Crea un bucle para dormir contando ovejas:");
+
+for (let b=1; b<11; b++) {
+    if (b<10) console.log(b, "Intentando dormir");
+    if (b===10) console.log ("Dormido!");
+
+};
